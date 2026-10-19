@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-labelledby="t">
+  <title id="t">Máximo Barral · AI engineer with an integrated electronics background</title>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+    <marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L8 4L0 8z" fill="#2458f0"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="260" rx="14" fill="#15171c"/>
+  <rect width="1000" height="260" rx="14" fill="url(#grid)"/>
+
+  <g font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace">
+    <text x="48" y="54" fill="#b07a1e" font-size="13" letter-spacing="2.5">MB · DATASHEET · BUENOS AIRES, AR</text>
+    <text x="46" y="108" fill="#f7f5f0" font-size="48" font-weight="700" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif">Máximo Barral</text>
+    <text x="48" y="142" fill="#c9ccd3" font-size="17">AI engineer with an integrated electronics background</text>
+
+    <!-- 8-pin package, as in the portfolio -->
+    <g fill="#5b606b">
+      <rect x="806" y="50" width="14" height="8"/><rect x="806" y="76" width="14" height="8"/>
+      <rect x="806" y="102" width="14" height="8"/><rect x="806" y="128" width="14" height="8"/>
+      <rect x="920" y="50" width="14" height="8"/><rect x="920" y="76" width="14" height="8"/>
+      <rect x="920" y="102" width="14" height="8"/><rect x="920" y="128" width="14" height="8"/>
+    </g>
+    <rect x="820" y="36" width="100" height="114" rx="4" fill="#1f2229" stroke="#5b606b"/>
+    <circle cx="834" cy="50" r="4" fill="none" stroke="#5b606b"/>
+    <text x="870" y="93" fill="#b07a1e" font-size="24" font-weight="700" text-anchor="middle" dy="8">MB</text>
+
+    <!-- signal chain: the pulse hides behind each block -->
+    <path id="bus" d="M24 210H952" stroke="#2458f0" stroke-width="1.5" marker-end="url(#ah)"/>
+    <circle r="4" fill="#5d86ff">
+      <animateMotion dur="4s" repeatCount="indefinite"><mpath href="#bus"/></animateMotion>
+    </circle>
+    <g font-size="12" text-anchor="middle">
+      <rect x="40" y="190" width="240" height="40" rx="4" fill="#1f2229" stroke="#5b606b"/>
+      <text x="160" y="208" fill="#f7f5f0">ELECTRONICS</text>
+      <text x="160" y="223" fill="#8a8f99" font-size="10.5">E.T.U Siemens · 2017–2023</text>
+      <rect x="330" y="190" width="240" height="40" rx="4" fill="#1f2229" stroke="#5b606b"/>
+      <text x="450" y="208" fill="#f7f5f0">INDUSTRIAL IoT</text>
+      <text x="450" y="223" fill="#8a8f99" font-size="10.5">Siemens Digital Industries · 2023</text>
+      <rect x="620" y="190" width="240" height="40" rx="4" fill="#1f2229" stroke="#2458f0"/>
+      <text x="740" y="208" fill="#f7f5f0">AI ENGINEERING</text>
+      <text x="740" y="223" fill="#8a8f99" font-size="10.5">UdeSA · 2024–2028</text>
+    </g>
+  </g>
+</svg>
